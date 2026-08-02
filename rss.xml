@@ -5,11 +5,21 @@
     <link>https://andrey-ai-lab.com</link>
     <description>Эксперименты с AI-архитектурой и оптимизацией бизнес-процессов</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0000</lastBuildDate>
     <managingEditor>hello@andrey-ai-lab.com (Andrey)</managingEditor>
     <webMaster>hello@andrey-ai-lab.com (Andrey)</webMaster>
     <atom:link href="https://andrey-ai-lab.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>Как управленческий опыт привёл меня к RAG-архитектуре для ритейла</title>
+      <link>https://andrey-ai-lab.com/articles/upravlencheskii-opyt-k-rag-arhitekture-dlya-riteila/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/upravlencheskii-opyt-k-rag-arhitekture-dlya-riteila/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Из операционного управления гипермаркетом — в проектирование корпоративного AI-ассистента на базе RAG для сотрудников отдела рекламаций.</description>
+      <category>AI-архитектура</category>
+        <category>RAG</category>
+        <category>Ритейл</category>
+    </item>
     <item>
       <title>От RAG к мультимодальному HR-ассистенту: почему корпоративному AI уже недостаточно просто отвечать на вопросы</title>
       <link>https://andrey-ai-lab.com/articles/ot-rag-k-multimodalnomu-hr-assistentu/</link>
