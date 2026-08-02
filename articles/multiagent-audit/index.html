@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Как спроектировать команду специализированных агентов, которые собирают данные, находят узкие места и предлагают решения без человеческого вмешательства.">
+  <title>Многоагентная система для аудита процессов | Andrey AI Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Andrey AI Lab" href="../../rss.xml">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <article class="article-page">
+      <div class="container">
+        <header class="article-page__header">
+          <div class="article-card__meta">
+            <time datetime="2026-08-02">02.08.2026</time>
+            <span class="article-card__tag">AI-архитектура</span>
+            <span class="article-card__tag">Агенты</span>
+          </div>
+          <h1 class="article-page__title">Многоагентная система для аудита процессов</h1>
+          <p class="article-page__lead">Как спроектировать команду специализированных агентов, которые собирают данные, находят узкие места и предлагают решения без человеческого вмешательства.</p>
+        </header>
+
+        <div class="article-page__content">
+          <p>Когда я впервые столкнулся с задачей аудита бизнес-процессов, меня удивило, насколько много времени уходит не на анализ, а на сборку данных из десятков источников. CRM, ERP, таск-трекеры, почта, чаты — каждая система говорит на своём языке. Идея многоагентной системы родилась из этого хаоса.</p>
+<h2>Архитектура команды агентов</h2>
+<p>Вместо одного универсального помощника я разделил систему на четыре роли:</p>
+<ul>
+<li><strong>Collector Agent</strong> — собирает сырые данные из подключённых систем.</li>
+<li><strong>Analyzer Agent</strong> — ищет аномалии, задержки и повторяющиеся проблемы.</li>
+<li><strong>Advisor Agent</strong> — формулирует гипотезы и рекомендации.</li>
+<li><strong>Validator Agent</strong> — проверяет, не противоречат ли рекомендации ограничениям бизнеса.</li>
+</ul>
+<h2>Почему не один большой LLM?</h2>
+<p>Один агент с широким контекстом быстро теряет фокус. Он начинает путать приоритеты, забывает ограничения и даёт размытые советы. Специализированные агенты решают конкретные задачи и общаются через чёткий протокол — это делает систему предсказуемой и масштабируемой.</p>
+<h2>Протокол взаимодействия</h2>
+<p>Каждый агент получает структурированный вход и возвращает структурированный выход. Я использую JSON-схемы с обязательными полями: <code>observation</code>, <code>confidence</code>, <code>reasoning</code>, <code>recommendation</code>. Это позволяет отслеживать, почему система приняла то или иное решение.</p>
+<h2>Первые результаты</h2>
+<p>На пилоте система нашла 14 узких мест в процессе обработки заказов, из которых 6 были неочевидны для команды. Время аудита сократилось с трёх дней до четырёх часов. Главное — не скорость, а повторяемость: теперь аудит можно запускать раз в неделю без дополнительных ресурсов.</p>
+<p>В следующей статье разберу, как организовать память агентов, чтобы они учились на прошлых аудитах и не повторяли одни и те же выводы.</p>
+
+        </div>
+
+        <footer class="article-page__footer">
+          <a href="../../articles.html" class="button button--ghost">← Все статьи</a>
+          <a href="../../index.html#contact" class="button button--primary">Обсудить</a>
+        </footer>
+      </div>
+    </article>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="../../js/components.js"></script>
+  <script src="../../js/main.js"></script>
+</body>
+</html>

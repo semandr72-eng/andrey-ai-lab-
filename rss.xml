@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrey AI Lab</title>
+    <link>https://andrey-ai-lab.com</link>
+    <description>Эксперименты с AI-архитектурой и оптимизацией бизнес-процессов</description>
+    <language>ru</language>
+    <lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <managingEditor>hello@andrey-ai-lab.com (Andrey)</managingEditor>
+    <webMaster>hello@andrey-ai-lab.com (Andrey)</webMaster>
+    <atom:link href="https://andrey-ai-lab.com/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>Локальный AI без интернета: я проверил, где он действительно выигрывает у облачных моделей</title>
+      <link>https://andrey-ai-lab.com/articles/lokalnyi-ai-bez-interneta/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/lokalnyi-ai-bez-interneta/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Эксперимент с Qwen 2.5 14B и Llama 3.1 8B на ноутбуке без видеокарты. Где локальные LLM уже готовы к реальным задачам, а где облако остаётся лучшим выбором.</description>
+      <category>LLM</category>
+        <category>AI-архитектура</category>
+        <category>Локальные модели</category>
+    </item>
+    <item>
+      <title>Многоагентная система для аудита процессов</title>
+      <link>https://andrey-ai-lab.com/articles/multiagent-audit/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/multiagent-audit/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Как спроектировать команду специализированных агентов, которые собирают данные, находят узкие места и предлагают решения без человеческого вмешательства.</description>
+      <category>AI-архитектура</category>
+        <category>Агенты</category>
+    </item>
+    <item>
+      <title>Автоматизация отчётности: от данных к решению</title>
+      <link>https://andrey-ai-lab.com/articles/avtomatizaciya-otchetnosti/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/avtomatizaciya-otchetnosti/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Практический разбор пайплайна: сбор метрик, генерация инсайтов и доставка рекомендаций руководству в нужный момент.</description>
+      <category>Оптимизация</category>
+        <category>Аналитика</category>
+    </item>
+    <item>
+      <title>RAG над корпоративными знаниями</title>
+      <link>https://andrey-ai-lab.com/articles/rag-korporativnye-znaniya/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/rag-korporativnye-znaniya/</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Как построить систему поиска и генерации ответов по внутренней базе знаний, чтобы сотрудники получали точные ответы за секунды.</description>
+      <category>RAG</category>
+        <category>LLM</category>
+    </item>
+    <item>
+      <title>LLM в продакшене: latency, cost, quality</title>
+      <link>https://andrey-ai-lab.com/articles/llm-v-prodakshine/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/llm-v-prodakshine/</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Баланс между скоростью, стоимостью и качеством ответа. Кэширование, роутинг моделей и оценка результатов в реальном времени.</description>
+      <category>Инфраструктура</category>
+        <category>LLM</category>
+    </item>
+  </channel>
+</rss>

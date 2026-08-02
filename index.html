@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Личный блог об AI-архитектуре и AI-оптимизации бизнес-процессов.">
+  <title>Andrey AI Lab — AI-архитектура и оптимизация процессов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Andrey AI Lab" href="rss.xml">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">
+            <span class="hero__eyebrow-dot"></span>
+            <span class="typewriter" data-text="AI architecture · Process optimization · Experiments"></span>
+            <span class="cursor">_</span>
+          </p>
+          <h1 class="hero__title">
+            <span class="reveal-line">Архитектура</span>
+            <span class="reveal-line">интеллекта</span>
+            <span class="reveal-line reveal-line--muted">в бизнесе</span>
+          </h1>
+          <p class="hero__subtitle">
+            Экспериментирую с AI-системами, проектирую архитектуру решений и оптимизирую бизнес-процессы через автоматизацию на базе искусственного интеллекта.
+          </p>
+          <div class="hero__actions">
+            <a href="articles.html" class="button button--primary">
+              <span class="button__dot"></span>
+              Читать эксперименты
+            </a>
+            <a href="#about" class="button button--ghost">Об авторе</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="orb orb--large" data-depth="1">
+            <div class="orb__ring orb__ring--1"></div>
+            <div class="orb__ring orb__ring--2"></div>
+          </div>
+          <div class="orb orb--medium" data-depth="2"></div>
+          <div class="orb orb--small" data-depth="3"></div>
+          <div class="console console--vertical" data-depth="2"></div>
+          <div class="console console--horizontal" data-depth="1"></div>
+          <div class="data-ring data-ring--1"></div>
+          <div class="data-ring data-ring--2"></div>
+        </div>
+      </div>
+
+      <div class="hero__metrics" aria-hidden="true">
+        <div class="metric metric--small">
+          <span class="metric__value" data-target="47">0</span>
+          <span class="metric__label">Экспериментов</span>
+        </div>
+        <div class="metric metric--small">
+          <span class="metric__value" data-target="12">0</span>
+          <span class="metric__label">AI-систем</span>
+        </div>
+        <div class="metric metric--small">
+          <span class="metric__value" data-target="340">0</span>
+          <span class="metric__label">Часов оптимизации</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="articles">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__index">01</span>
+          <h2 class="section-header__title">Последние эксперименты</h2>
+          <p class="section-header__description">Заметки о проектировании AI-архитектуры и внедрении интеллекта в бизнес-процессы.</p>
+        </div>
+
+        <div class="articles__grid" data-articles="featured">
+          <!-- Articles rendered from JSON -->
+        </div>
+
+        <div class="articles__footer">
+          <a href="articles.html" class="button button--ghost">Все статьи</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__panel" data-tilt>
+          <div class="about__glow"></div>
+          <div class="section-header section-header--compact">
+            <span class="section-header__index">02</span>
+            <h2 class="section-header__title">Обо мне</h2>
+          </div>
+          <div class="about__content">
+            <p>
+              Я проектирую AI-системы и оптимизирую бизнес-процессы через интеллектуальную автоматизацию. Этот блог — лаборатория, где я фиксирую эксперименты: от архитектуры многоагентных решений до внедрения LLM в реальные рабочие потоки.
+            </p>
+            <p>
+              Каждая статья — не теория ради теории, а разбор практического кейса: что работает, где ломается и как измерить результат. Если тебе интересна грань между AI-архитектурой и бизнес-ценностью — добро пожаловать.
+            </p>
+          </div>
+          <div class="about__signature">
+            <span class="about__avatar" aria-hidden="true"></span>
+            <div>
+              <strong>Andrey</strong>
+              <span>AI Architect & Process Optimizer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header section-header--centered">
+          <span class="section-header__index">03</span>
+          <h2 class="section-header__title">Связаться</h2>
+          <p class="section-header__description">Если хочешь обсудить архитектуру, эксперимент или внедрение — напиши.</p>
+        </div>
+
+        <form class="contact__form" action="#" method="post">
+          <div class="field">
+            <label class="field__label" for="name">Имя</label>
+            <input class="field__input" id="name" name="name" type="text" placeholder="Твоё имя" required>
+          </div>
+          <div class="field">
+            <label class="field__label" for="email">Email</label>
+            <input class="field__input" id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field field--wide">
+            <label class="field__label" for="message">Сообщение</label>
+            <textarea class="field__input field__input--textarea" id="message" name="message" rows="5" placeholder="О чём хочешь поговорить?" required></textarea>
+          </div>
+          <div class="field field--wide contact__actions">
+            <button type="submit" class="button button--primary">
+              <span class="button__dot"></span>
+              Отправить
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/articles-list.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

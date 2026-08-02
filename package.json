@@ -1,0 +1,26 @@
+{
+  "name": "andrey-ai-lab",
+  "version": "1.0.0",
+  "description": "Личный блог об AI-архитектуре и AI-оптимизации бизнес-процессов",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js",
+    "new-article": "node new-article.js",
+    "generate-rss": "node generate-rss.js",
+    "serve": "npx serve",
+    "dev": "npm run build && npx serve"
+  },
+  "keywords": [
+    "blog",
+    "ai",
+    "architecture",
+    "optimization",
+    "static-site"
+  ],
+  "author": "Andrey",
+  "license": "MIT",
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.0"
+  }
+}
