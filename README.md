@@ -181,7 +181,7 @@ draft: true
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/<твой-username>/andrey-ai-lab.git
+   git remote add origin https://github.com/semandr72-eng/andrey-ai-lab.git
    git push -u origin main
    ```
 
@@ -202,7 +202,7 @@ draft: true
 
 Сайт будет доступен по адресу:
 ```
-https://<твой-username>.github.io/andrey-ai-lab/
+https://semandr72-eng.github.io/andrey-ai-lab/
 ```
 
 ### Обновление сайта
