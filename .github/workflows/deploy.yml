@@ -32,7 +32,7 @@ jobs:
 
       - name: Build site
         env:
-          BASE_URL: "https://${{ github.repository_owner }}.github.io/andrey-ai-lab"
+          BASE_URL: "https://${{ github.repository_owner }}.github.io/andrey-ai-lab-"
         run: npm run build
 
       - name: Prepare dist

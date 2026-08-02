@@ -174,14 +174,14 @@ draft: true
 
 ### Подготовка
 
-1. Создай репозиторий `andrey-ai-lab` на GitHub.
+1. Создай репозиторий `andrey-ai-lab-` на GitHub.
 2. Запушь код в ветку `main`:
    ```bash
    git init
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/semandr72-eng/andrey-ai-lab.git
+   git remote add origin https://github.com/semandr72-eng/andrey-ai-lab-.git
    git push -u origin main
    ```
 
@@ -202,7 +202,7 @@ draft: true
 
 Сайт будет доступен по адресу:
 ```
-https://semandr72-eng.github.io/andrey-ai-lab/
+https://semandr72-eng.github.io/andrey-ai-lab-/
 ```
 
 ### Обновление сайта
