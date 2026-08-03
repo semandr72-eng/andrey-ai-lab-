@@ -1004,15 +1004,6 @@ img {
   color: var(--color-error);
 }
 
-.contact__honeypot {
-  position: absolute;
-  left: -9999px;
-  opacity: 0;
-  pointer-events: none;
-  height: 0;
-  width: 0;
-}
-
 /* === Footer === */
 .footer {
   position: relative;

@@ -356,10 +356,6 @@ function initFormFeedback() {
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    if (form.querySelector('input[name="_gotcha"]').value) {
-      return;
-    }
-
     setStatus('');
     setLoading(true);
 
