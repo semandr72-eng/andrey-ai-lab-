@@ -326,10 +326,15 @@ function initGlitchEffect() {
   });
 }
 
-// === Form submit via Basin ===
+// === Form submit via EmailJS ===
 function initFormFeedback() {
   const form = document.querySelector('.contact__form');
   if (!form) return;
+
+  // Initialize EmailJS once the SDK is available.
+  if (typeof emailjs !== 'undefined') {
+    emailjs.init('TaTCcYMIS4WbLk5Gq');
+  }
 
   const status = form.querySelector('.contact__status');
   const button = form.querySelector('button[type="submit"]');
@@ -356,34 +361,22 @@ function initFormFeedback() {
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
+    if (typeof emailjs === 'undefined') {
+      setStatus('Не удалось загрузить сервис отправки. Напиши на почту.', 'error');
+      return;
+    }
+
     setStatus('');
     setLoading(true);
 
-    const formData = new FormData(form);
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 8000);
-
     try {
-      const response = await fetch('https://usebasin.com/f/ca30b1b13851', {
-        method: 'POST',
-        headers: { Accept: 'application/json' },
-        body: formData,
-        signal: controller.signal,
-      });
-      clearTimeout(timeoutId);
-
-      const data = await response.json().catch(() => ({}));
-
-      if (response.ok && (data.success === true || data.ok === true)) {
-        setStatus('Сообщение отправлено. Я отвечу в ближайшее время.', 'success');
-        form.reset();
-      } else {
-        const errorMessage = data.error || data.message || `HTTP ${response.status}`;
-        throw new Error(errorMessage);
-      }
+      await emailjs.sendForm('service_lajfaq8', 'template_w8md577', form);
+      setStatus('Сообщение отправлено. Я отвечу в ближайшее время.', 'success');
+      form.reset();
     } catch (error) {
-      // Fallback to classic form submit if AJAX fails or times out.
-      form.submit();
+      setStatus('Не удалось отправить сообщение. Попробуй ещё раз или напиши на почту.', 'error');
+      // eslint-disable-next-line no-console
+      console.error('EmailJS error:', error);
     } finally {
       setLoading(false);
     }
