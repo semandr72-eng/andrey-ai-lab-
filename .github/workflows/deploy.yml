@@ -39,7 +39,7 @@ jobs:
         run: |
           mkdir -p dist
           cp index.html articles.html dist/
-          cp -r css js data articles rss.xml templates dist/
+          cp -r css js data articles images rss.xml templates dist/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
