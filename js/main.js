@@ -326,7 +326,7 @@ function initGlitchEffect() {
   });
 }
 
-// === Form submit via FormSubmit ===
+// === Form submit via Basin ===
 function initFormFeedback() {
   const form = document.querySelector('.contact__form');
   if (!form) return;
@@ -364,7 +364,7 @@ function initFormFeedback() {
     const timeoutId = setTimeout(() => controller.abort(), 8000);
 
     try {
-      const response = await fetch('https://formspree.io/f/mdaqqjyr', {
+      const response = await fetch('https://usebasin.com/f/ca30b1b13851', {
         method: 'POST',
         headers: { Accept: 'application/json' },
         body: formData,
@@ -374,11 +374,11 @@ function initFormFeedback() {
 
       const data = await response.json().catch(() => ({}));
 
-      if (response.ok && data.ok === true) {
+      if (response.ok && (data.success === true || data.ok === true)) {
         setStatus('Сообщение отправлено. Я отвечу в ближайшее время.', 'success');
         form.reset();
       } else {
-        const errorMessage = data.error || `HTTP ${response.status}`;
+        const errorMessage = data.error || data.message || `HTTP ${response.status}`;
         throw new Error(errorMessage);
       }
     } catch (error) {
