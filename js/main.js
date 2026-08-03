@@ -326,26 +326,71 @@ function initGlitchEffect() {
   });
 }
 
-// === Form submit feedback ===
+// === Form submit via FormSubmit ===
 function initFormFeedback() {
   const form = document.querySelector('.contact__form');
   if (!form) return;
 
-  form.addEventListener('submit', (event) => {
+  const status = form.querySelector('.contact__status');
+  const button = form.querySelector('button[type="submit"]');
+  const originalText = button ? button.innerHTML.trim() : '';
+
+  function setStatus(message, type) {
+    if (!status) return;
+    status.textContent = message;
+    status.className = 'field field--wide contact__status';
+    if (type) {
+      status.classList.add(`contact__status--${type}`);
+    }
+  }
+
+  function setLoading(isLoading) {
+    if (!button) return;
+    button.disabled = isLoading;
+    button.style.opacity = isLoading ? '0.7' : '';
+    button.innerHTML = isLoading
+      ? '<span class="button__dot"></span>Отправка…'
+      : originalText;
+  }
+
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    const button = form.querySelector('button[type="submit"]');
-    const originalText = button.textContent.trim();
 
-    button.textContent = 'Отправлено';
-    button.disabled = true;
-    button.style.opacity = '0.7';
+    if (form.querySelector('input[name="_gotcha"]').value) {
+      return;
+    }
 
-    setTimeout(() => {
-      button.textContent = originalText;
-      button.disabled = false;
-      button.style.opacity = '';
-      form.reset();
-    }, 2000);
+    setStatus('');
+    setLoading(true);
+
+    const formData = new FormData(form);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+    try {
+      const response = await fetch('https://formspree.io/f/mdaqqjyr', {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: formData,
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+
+      const data = await response.json().catch(() => ({}));
+
+      if (response.ok && data.ok === true) {
+        setStatus('Сообщение отправлено. Я отвечу в ближайшее время.', 'success');
+        form.reset();
+      } else {
+        const errorMessage = data.error || `HTTP ${response.status}`;
+        throw new Error(errorMessage);
+      }
+    } catch (error) {
+      // Fallback to classic form submit if AJAX fails or times out.
+      form.submit();
+    } finally {
+      setLoading(false);
+    }
   });
 }
 

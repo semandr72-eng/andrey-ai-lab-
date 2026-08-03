@@ -105,7 +105,7 @@
             </p>
           </div>
           <div class="about__signature">
-            <img src="images/avatar.png" alt="Andrey" class="about__avatar" width="52" height="52">
+            <img src="images/avatar.jpg" alt="Andrey" class="about__avatar" width="52" height="52">
             <div>
               <strong>Andrey</strong>
               <span>AI Architect & Process Optimizer</span>
@@ -123,7 +123,11 @@
           <p class="section-header__description">Если хочешь обсудить архитектуру, эксперимент или внедрение — напиши.</p>
         </div>
 
-        <form class="contact__form" action="#" method="post">
+        <form class="contact__form" action="https://formspree.io/f/mdaqqjyr" method="POST">
+          <input type="text" name="_gotcha" class="contact__honeypot" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_subject" value="Новое сообщение с Andrey AI Lab">
+          <input type="hidden" name="_next" value="https://andrey-ai-lab.com">
+
           <div class="field">
             <label class="field__label" for="name">Имя</label>
             <input class="field__input" id="name" name="name" type="text" placeholder="Твоё имя" required>
@@ -142,6 +146,7 @@
               Отправить
             </button>
           </div>
+          <div class="field field--wide contact__status" aria-live="polite"></div>
         </form>
       </div>
     </section>

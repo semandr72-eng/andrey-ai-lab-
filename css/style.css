@@ -11,6 +11,8 @@
   --color-earth-muted: #e8e0d8;
   --color-accent: #5b8a9a;
   --color-glow: rgba(91, 138, 154, 0.35);
+  --color-success: #2d7a5a;
+  --color-error: #b14b4b;
 
   --bg-body: linear-gradient(180deg, var(--color-ice) 0%, var(--color-mist) 100%);
   --bg-glass: rgba(255, 255, 255, 0.55);
@@ -980,6 +982,35 @@ img {
   display: flex;
   justify-content: center;
   padding-top: 0.5rem;
+}
+
+.contact__status {
+  text-align: center;
+  min-height: 1.5rem;
+  font-size: 0.95rem;
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease-out);
+}
+
+.contact__status:not(:empty) {
+  opacity: 1;
+}
+
+.contact__status--success {
+  color: var(--color-success);
+}
+
+.contact__status--error {
+  color: var(--color-error);
+}
+
+.contact__honeypot {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  width: 0;
 }
 
 /* === Footer === */
