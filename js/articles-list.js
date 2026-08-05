@@ -114,7 +114,8 @@
   async function loadArticles() {
     const basePath = getBasePath();
     try {
-      const response = await fetch(`${basePath}data/articles.json`);
+      const cacheBuster = Date.now();
+      const response = await fetch(`${basePath}data/articles.json?_=${cacheBuster}`);
       if (!response.ok) throw new Error('Failed to load articles');
       const data = await response.json();
       allArticles = data.articles || [];
