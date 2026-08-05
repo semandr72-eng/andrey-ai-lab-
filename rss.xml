@@ -5,11 +5,21 @@
     <link>https://andrey-ai-lab.com</link>
     <description>Эксперименты с AI-архитектурой и оптимизацией бизнес-процессов</description>
     <language>ru</language>
-    <lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
     <managingEditor>hello@andrey-ai-lab.com (Andrey)</managingEditor>
     <webMaster>hello@andrey-ai-lab.com (Andrey)</webMaster>
     <atom:link href="https://andrey-ai-lab.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>Когда промпты перестают работать: почему я выбрал fine-tuning вместо очередной инструкции для LLM</title>
+      <link>https://andrey-ai-lab.com/articles/kogda-prompty-ne-rabotayut-fine-tuning/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/kogda-prompty-ne-rabotayut-fine-tuning/</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Почему промпт-инжиниринг и RAG не всегда решают корпоративные задачи, и когда имеет смысл переходить к supervised fine-tuning.</description>
+      <category>AI-архитектура</category>
+        <category>LLM</category>
+        <category>Fine-tuning</category>
+    </item>
     <item>
       <title>Как управленческий опыт привёл меня к RAG-архитектуре для ритейла</title>
       <link>https://andrey-ai-lab.com/articles/upravlencheskii-opyt-k-rag-arhitekture-dlya-riteila/</link>

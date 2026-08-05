@@ -8,6 +8,18 @@
   },
   "articles": [
     {
+      "slug": "kogda-prompty-ne-rabotayut-fine-tuning",
+      "title": "Когда промпты перестают работать: почему я выбрал fine-tuning вместо очередной инструкции для LLM",
+      "description": "Почему промпт-инжиниринг и RAG не всегда решают корпоративные задачи, и когда имеет смысл переходить к supervised fine-tuning.",
+      "date": "2026-08-05",
+      "tags": [
+        "AI-архитектура",
+        "LLM",
+        "Fine-tuning"
+      ],
+      "featured": true
+    },
+    {
       "slug": "upravlencheskii-opyt-k-rag-arhitekture-dlya-riteila",
       "title": "Как управленческий опыт привёл меня к RAG-архитектуре для ритейла",
       "description": "Из операционного управления гипермаркетом — в проектирование корпоративного AI-ассистента на базе RAG для сотрудников отдела рекламаций.",
