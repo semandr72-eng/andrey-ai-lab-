@@ -5,11 +5,21 @@
     <link>https://andrey-ai-lab.com</link>
     <description>Эксперименты с AI-архитектурой и оптимизацией бизнес-процессов</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
     <managingEditor>hello@andrey-ai-lab.com (Andrey)</managingEditor>
     <webMaster>hello@andrey-ai-lab.com (Andrey)</webMaster>
     <atom:link href="https://andrey-ai-lab.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>AI-агент нашёл клиента. А потом начал выдумывать: чему меня научил MVP в LangFlow</title>
+      <link>https://andrey-ai-lab.com/articles/ai-agent-nashel-klienta-i-vydumal/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-agent-nashel-klienta-i-vydumal/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Что произошло, когда я построил в LangFlow исследовательского агента для предварительного анализа потенциального B2B-клиента: три реальные ошибки MVP и почему промпт-инжиниринг в агентных системах превращается в engineering поведения.</description>
+      <category>AI-архитектура</category>
+        <category>LangFlow</category>
+        <category>Агенты</category>
+    </item>
     <item>
       <title>Когда промпты перестают работать: почему я выбрал fine-tuning вместо очередной инструкции для LLM</title>
       <link>https://andrey-ai-lab.com/articles/kogda-prompty-ne-rabotayut-fine-tuning/</link>
