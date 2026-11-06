@@ -33,6 +33,17 @@
         <category>Стратегическое планирование</category>
     </item>
     <item>
+      <title>Ваш AI-ассистент отвечает клиентам. Но что он им наговорил вчера — вы не знаете</title>
+      <link>https://andrey-ai-lab.com/articles/chto-nagovoril-ai-assistent/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/chto-nagovoril-ai-assistent/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Эксперимент с логированием RAG-ассистента: как 7 запросов превратились в измеримую экономику системы, почему «бот несёт чушь» — это техническая задача, и чем логи отличаются от observability.</description>
+      <category>AI-архитектура</category>
+        <category>Логирование</category>
+        <category>RAG</category>
+        <category>Аналитика</category>
+    </item>
+    <item>
       <title>AI-агент нашёл клиента. А потом начал выдумывать: чему меня научил MVP в LangFlow</title>
       <link>https://andrey-ai-lab.com/articles/ai-agent-nashel-klienta-i-vydumal/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-agent-nashel-klienta-i-vydumal/</guid>
