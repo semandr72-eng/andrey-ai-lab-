@@ -33,6 +33,17 @@
         <category>Стратегическое планирование</category>
     </item>
     <item>
+      <title>Я дообучил нейросеть на домашнем компьютере за 20 минут. И понял, что обучение модели — не самая сложная часть</title>
+      <link>https://andrey-ai-lab.com/articles/ya-doobuchil-neyroset-za-20-minut/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ya-doobuchil-neyroset-za-20-minut/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Fine-tuning на CPU: 87 примеров, LoRA и rugpt3small изменили поведение модели за 20 минут. Но главный урок был не в обучении, а в том, как приложение разговаривает с моделью после него.</description>
+      <category>AI-архитектура</category>
+        <category>Fine-tuning</category>
+        <category>Локальные модели</category>
+        <category>LLM</category>
+    </item>
+    <item>
       <title>Ваш AI-ассистент отвечает клиентам. Но что он им наговорил вчера — вы не знаете</title>
       <link>https://andrey-ai-lab.com/articles/chto-nagovoril-ai-assistent/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/chto-nagovoril-ai-assistent/</guid>
