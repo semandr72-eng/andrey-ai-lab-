@@ -10,9 +10,10 @@
     "pravo-i-bezopasnost": {
       "title": "Право и безопасность",
       "description": "Цикл статей о юридических и организационных рисках AI-внедрений: персональные данные, ответственность за ошибки моделей, права на результат разработки и эксплуатация систем.",
-      "count": 1,
+      "count": 2,
       "articles": [
-        "bot-za-1000-rubley"
+        "bot-za-1000-rubley",
+        "kuda-uhodit-soobshenie-klienta"
       ]
     }
   },
@@ -30,7 +31,22 @@
       "series": "pravo-i-bezopasnost",
       "seriesTitle": "Право и безопасность",
       "seriesOrder": 1,
-      "seriesCount": 1
+      "seriesCount": 2
+    },
+    {
+      "slug": "kuda-uhodit-soobshenie-klienta",
+      "title": "Куда уходит сообщение клиента, когда он общается с AI-ботом?",
+      "description": "Путь персональных данных через мессенджер, сервер, базу знаний и внешнюю нейросеть. Почему вопрос «где работает бот?» сложнее, чем кажется, и что спросить у разработчика до запуска.",
+      "date": "2026-11-10",
+      "tags": [
+        "Право и безопасность",
+        "AI-архитектура"
+      ],
+      "featured": true,
+      "series": "pravo-i-bezopasnost",
+      "seriesTitle": "Право и безопасность",
+      "seriesOrder": 2,
+      "seriesCount": 2
     },
     {
       "slug": "ai-assistent-dlya-hr-za-10-dnei",
