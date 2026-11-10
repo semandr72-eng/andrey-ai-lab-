@@ -15,16 +15,16 @@
       <link>https://andrey-ai-lab.com/articles/bot-za-1000-rubley/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/bot-za-1000-rubley/</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Работающий чат-бот — ещё не готовое бизнес-решение. Пять рисков дешёвой автоматизации: куда уходят персональные данные, избыточные доступы, убедительные ошибки нейросети, права на код и отсутствие сопровождения — плюс чек-лист из семи пунктов перед запуском.</description>
+      <description>Работающий чат-бот - ещё не готовое бизнес-решение. Пять рисков дешёвой автоматизации: куда уходят персональные данные, избыточные доступы, убедительные ошибки нейросети, права на код и отсутствие сопровождения - плюс чек-лист из семи пунктов перед запуском.</description>
       <category>Право и безопасность</category>
         <category>AI-архитектура</category>
     </item>
     <item>
-      <title>Как я за 10 дней собрал AI-ассистента для HR. И почему самое сложное в AI-проектах — не AI</title>
+      <title>Как я за 10 дней собрал AI-ассистента для HR. И почему самое сложное в AI-проектах - не AI</title>
       <link>https://andrey-ai-lab.com/articles/ai-assistent-dlya-hr-za-10-dnei/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-assistent-dlya-hr-za-10-dnei/</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>10 дней от идеи до работающего MVP: HR-ассистент на Telegram, n8n, RAG и GigaChat для розничной сети с тысячами незакрытых позиций — и почему самое сложное в AI-проектах оказались не модель, а данные, инфраструктура и тестирование.</description>
+      <description>10 дней от идеи до работающего MVP: HR-ассистент на Telegram, n8n, RAG и GigaChat для розничной сети с тысячами незакрытых позиций - и почему самое сложное в AI-проектах оказались не модель, а данные, инфраструктура и тестирование.</description>
       <category>AI-архитектура</category>
         <category>HR</category>
         <category>RAG</category>
@@ -36,13 +36,13 @@
       <link>https://andrey-ai-lab.com/articles/ai-kotoryi-pomnit-moi-tseli/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-kotoryi-pomnit-moi-tseli/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Как я построил локальную среду стратегического мышления с AI-помощником: цели, трекеры, рефлексия и Llama 3.1 на собственном компьютере — без облака и внешних API.</description>
+      <description>Как я построил локальную среду стратегического мышления с AI-помощником: цели, трекеры, рефлексия и Llama 3.1 на собственном компьютере - без облака и внешних API.</description>
       <category>AI-архитектура</category>
         <category>Локальные модели</category>
         <category>Стратегическое планирование</category>
     </item>
     <item>
-      <title>Я дообучил нейросеть на домашнем компьютере за 20 минут. И понял, что обучение модели — не самая сложная часть</title>
+      <title>Я дообучил нейросеть на домашнем компьютере за 20 минут. И понял, что обучение модели - не самая сложная часть</title>
       <link>https://andrey-ai-lab.com/articles/ya-doobuchil-neyroset-za-20-minut/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ya-doobuchil-neyroset-za-20-minut/</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
@@ -53,11 +53,11 @@
         <category>LLM</category>
     </item>
     <item>
-      <title>Ваш AI-ассистент отвечает клиентам. Но что он им наговорил вчера — вы не знаете</title>
+      <title>Ваш AI-ассистент отвечает клиентам. Но что он им наговорил вчера - вы не знаете</title>
       <link>https://andrey-ai-lab.com/articles/chto-nagovoril-ai-assistent/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/chto-nagovoril-ai-assistent/</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Эксперимент с логированием RAG-ассистента: как 7 запросов превратились в измеримую экономику системы, почему «бот несёт чушь» — это техническая задача, и чем логи отличаются от observability.</description>
+      <description>Эксперимент с логированием RAG-ассистента: как 7 запросов превратились в измеримую экономику системы, почему «бот несёт чушь» - это техническая задача, и чем логи отличаются от observability.</description>
       <category>AI-архитектура</category>
         <category>Логирование</category>
         <category>RAG</category>
@@ -88,7 +88,7 @@
       <link>https://andrey-ai-lab.com/articles/upravlencheskii-opyt-k-rag-arhitekture-dlya-riteila/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/upravlencheskii-opyt-k-rag-arhitekture-dlya-riteila/</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Из операционного управления гипермаркетом — в проектирование корпоративного AI-ассистента на базе RAG для сотрудников отдела рекламаций.</description>
+      <description>Из операционного управления гипермаркетом - в проектирование корпоративного AI-ассистента на базе RAG для сотрудников отдела рекламаций.</description>
       <category>AI-архитектура</category>
         <category>RAG</category>
         <category>Ритейл</category>
