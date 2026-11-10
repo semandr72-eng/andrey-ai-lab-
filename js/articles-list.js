@@ -1,5 +1,6 @@
 (function () {
   let allArticles = [];
+  let allSeries = {};
   let activeTag = 'all';
 
   function formatDate(dateString) {
@@ -111,6 +112,50 @@
     }
   }
 
+  function renderSeriesSection() {
+    const container = document.querySelector('[data-series]');
+    if (!container) return;
+
+    const slugs = Object.keys(allSeries);
+    if (slugs.length === 0) {
+      container.innerHTML = '';
+      return;
+    }
+
+    const basePath = getBasePath();
+
+    container.innerHTML = `
+      <div class="series-list__header">
+        <span class="section-header__index">Серии</span>
+        <p class="series-list__hint">Циклы статей по темам</p>
+      </div>
+      <div class="series-list__grid">
+        ${slugs.map((slug) => {
+          const series = allSeries[slug];
+          const firstSlug = series.articles[0];
+          const countText = series.count === 1 ? '1 статья' : `${series.count} статей`;
+          return `
+            <a href="${basePath}articles/${firstSlug}/index.html" class="series-card" data-tilt data-reveal>
+              <div class="series-card__meta">
+                <span class="series-card__count">${countText}</span>
+              </div>
+              <h3 class="series-card__title">${series.title}</h3>
+              <p class="series-card__description">${series.description}</p>
+              <span class="series-card__link">Начать читать →</span>
+            </a>
+          `;
+        }).join('')}
+      </div>
+    `;
+
+    if (window.initCardEffects) {
+      window.initCardEffects();
+    }
+    if (window.initRevealObserver) {
+      window.initRevealObserver();
+    }
+  }
+
   async function loadArticles() {
     const basePath = getBasePath();
     try {
@@ -119,6 +164,8 @@
       if (!response.ok) throw new Error('Failed to load articles');
       const data = await response.json();
       allArticles = data.articles || [];
+      allSeries = data.series || {};
+      renderSeriesSection();
       renderArticlesList();
     } catch (error) {
       console.error('Articles load error:', error);
