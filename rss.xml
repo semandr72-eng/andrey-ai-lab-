@@ -51,6 +51,16 @@
         <category>n8n</category>
     </item>
     <item>
+      <title>Я создал AI-ассистента для частного инвестора. И понял, почему нейросеть - не самая сложная часть</title>
+      <link>https://andrey-ai-lab.com/articles/ai-assistent-dlya-chastnogo-investora/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-assistent-dlya-chastnogo-investora/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Как я построил персональную систему для инвестора: парсинг брокерских PDF, идемпотентный импорт, аналитика с MOEX, AI-ассистент через DeepSeek или локальную модель - и журнал рекомендаций, который помнит предыдущие решения.</description>
+      <category>AI-архитектура</category>
+        <category>Аналитика</category>
+        <category>Локальные модели</category>
+    </item>
+    <item>
       <title>Я создал AI, который помнит мои цели. И всё это работает без интернета</title>
       <link>https://andrey-ai-lab.com/articles/ai-kotoryi-pomnit-moi-tseli/</link>
       <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-kotoryi-pomnit-moi-tseli/</guid>
