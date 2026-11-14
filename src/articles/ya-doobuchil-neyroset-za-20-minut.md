@@ -50,7 +50,7 @@ featured: true
 
 * обычный домашний компьютер;
 * только CPU, без видеокарты;
-* 87 пар «вопрос–ответ»;
+* 87 пар «вопрос-ответ»;
 * стиль - дружелюбный преподаватель Python;
 * метод дообучения - LoRA;
 * стек - Python, PyTorch, Hugging Face Transformers, PEFT;
@@ -290,4 +290,4 @@ LoRA-адаптер обучался продолжать текст после 
 
 ---
 
-*Эксперимент демонстрационный. Использовал sberbank-ai/rugpt3small_based_on_gpt2, Python, PyTorch, Hugging Face Transformers/PEFT и LoRA. Датасет - 87 пар «вопрос–ответ». Вторая итерация - 6 эпох, 522 шага, около 19,9 минуты на CPU. Полученное качество не предназначено для production.*
+*Эксперимент демонстрационный. Использовал sberbank-ai/rugpt3small_based_on_gpt2, Python, PyTorch, Hugging Face Transformers/PEFT и LoRA. Датасет - 87 пар «вопрос-ответ». Вторая итерация - 6 эпох, 522 шага, около 19,9 минуты на CPU. Полученное качество не предназначено для production.*

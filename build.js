@@ -107,7 +107,7 @@ function buildSeriesMap(articles, registry) {
 
     const meta = registry[article.series];
     if (!meta) {
-      console.warn(`Unknown series "${article.series}" in article "${article.slug}" — добавьте её в src/series.json`);
+      console.warn(`Unknown series "${article.series}" in article "${article.slug}" - добавьте её в src/series.json`);
       continue;
     }
 
