@@ -5,11 +5,21 @@
     <link>https://andrey-ai-lab.com</link>
     <description>Эксперименты с AI-архитектурой и оптимизацией бизнес-процессов</description>
     <language>ru</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate>
     <managingEditor>hello@andrey-ai-lab.com (Andrey)</managingEditor>
     <webMaster>hello@andrey-ai-lab.com (Andrey)</webMaster>
     <atom:link href="https://andrey-ai-lab.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>AI-ассистент для ЖКХ: как превратить обращение жителя в готовую заявку - с контролем персональных данных</title>
+      <link>https://andrey-ai-lab.com/articles/ai-assistent-dlya-zhkh/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/ai-assistent-dlya-zhkh/</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Кейс разработки Telegram-бота для управляющей компании загородного посёлка на базе GigaChat API: как AI превращает свободный текст жителя в структурированную заявку, а даты, правила и персональные данные остаются под контролем программного кода.</description>
+      <category>AI-архитектура</category>
+        <category>GigaChat</category>
+        <category>Право и безопасность</category>
+    </item>
     <item>
       <title>Бот за 1000 рублей: почему дешёвая автоматизация может дорого обойтись бизнесу</title>
       <link>https://andrey-ai-lab.com/articles/bot-za-1000-rubley/</link>
