@@ -1196,6 +1196,15 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.article-page__content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto 0.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(15, 23, 32, 0.08);
+}
+
 .article-page__content ul,
 .article-page__content ol {
   margin-bottom: 1.5rem;

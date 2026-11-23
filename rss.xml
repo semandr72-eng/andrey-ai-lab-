@@ -5,11 +5,22 @@
     <link>https://andrey-ai-lab.com</link>
     <description>Эксперименты с AI-архитектурой и оптимизацией бизнес-процессов</description>
     <language>ru</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 +0000</lastBuildDate>
     <managingEditor>hello@andrey-ai-lab.com (Andrey)</managingEditor>
     <webMaster>hello@andrey-ai-lab.com (Andrey)</webMaster>
     <atom:link href="https://andrey-ai-lab.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>Новичок вышел на смену. Кто его научит?</title>
+      <link>https://andrey-ai-lab.com/articles/novichok-vyshel-na-smenu/</link>
+      <guid isPermaLink="true">https://andrey-ai-lab.com/articles/novichok-vyshel-na-smenu/</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI-наставник для служб доставки и ритейла: учит новичка по регламенту блоками, тестирует знания и показывает HR «пробелы знаний» - где именно сотрудники ошибаются. 152-ФЗ, on-prem-развёртывание, открытый код.</description>
+      <category>AI-архитектура</category>
+        <category>HR</category>
+        <category>Ритейл</category>
+        <category>RAG</category>
+    </item>
     <item>
       <title>AI-ассистент для ЖКХ: как превратить обращение жителя в готовую заявку - с контролем персональных данных</title>
       <link>https://andrey-ai-lab.com/articles/ai-assistent-dlya-zhkh/</link>
